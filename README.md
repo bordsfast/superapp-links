@@ -7,9 +7,15 @@ This folder contains the Apple App Site Association (AASA) file needed for Unive
 ### Option 1: GitHub Pages
 
 1. Create a new GitHub repository (e.g., `superapp-links`)
-2. Copy the `.well-known` folder to the repository root
+2. **Copy ALL files from this folder to the repository root**, including:
+   - `.well-known/` folder (with `apple-app-site-association` inside)
+   - `.nojekyll` file (IMPORTANT: this tells GitHub to serve the .well-known directory)
+   - `_config.yml` file (tells Jekyll to include .well-known)
+   - `index.html` (optional fallback page)
 3. Enable GitHub Pages in repository Settings > Pages
 4. Your AASA file will be available at: `https://YOUR-USERNAME.github.io/superapp-links/.well-known/apple-app-site-association`
+
+**IMPORTANT:** The `.nojekyll` and `_config.yml` files are required for GitHub Pages to serve the `.well-known` directory properly!
 
 ### Option 2: Netlify
 

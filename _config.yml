@@ -1,0 +1,5 @@
+# GitHub Pages configuration for Universal Links
+# Include the .well-known directory (normally ignored by Jekyll)
+include:
+  - .well-known
+
