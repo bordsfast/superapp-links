@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["S8Z9NWC7VY.com.multisys.superapp"],
+        "components": [
+          { "/": "/sendmoney*" },
+          { "/": "/pay*" },
+          { "/": "/receive*" },
+          { "/": "/profile*" },
+          { "/": "/web*" },
+          { "/": "/dynamic*" }
+        ]
+      }
+    ]
+  }
+}
+

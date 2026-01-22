@@ -1,0 +1,20 @@
+# Netlify configuration for Universal Links hosting
+# No build required - just static files
+
+[build]
+  publish = "."
+  command = ""
+
+# Ensure AASA file is served with correct content-type
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/apple-app-site-association.json"
+  [headers.values]
+    Content-Type = "application/json"
+    Access-Control-Allow-Origin = "*"
+

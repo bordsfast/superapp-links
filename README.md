@@ -53,3 +53,4 @@ https://YOUR-DOMAIN/web?url=https://example.com&title=Example
 https://YOUR-DOMAIN/dynamic?code=PROMO2024&ref=abc123
 ```
 
+##sample https://bordsfast.github.io/superapp-links/web?url=https://www.multisyscorp.com&title=Multisys
